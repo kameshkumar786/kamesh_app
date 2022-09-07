@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:artclname",
+ "creation": "2022-09-07 16:15:11.588622",
+ "description": "sdjhsjdhksdhjkds",
+ "doctype": "DocType",
+ "documentation": "https://erpnext.com/docs/aricle",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1",
+  "artclname",
+  "image",
+  "auther",
+  "section_break_5",
+  "description",
+  "isbn",
+  "status",
+  "publisher"
+ ],
+ "fields": [
+  {
+   "fieldname": "artclname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Article Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image"
+  },
+  {
+   "fieldname": "auther",
+   "fieldtype": "Data",
+   "label": "Auther"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "label": "ISBN"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nDisable"
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Tab Break",
+   "label": "section 1"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Tab Break",
+   "label": "section 2"
+  }
+ ],
+ "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-09-07 17:13:54.327177",
+ "modified_by": "Administrator",
+ "module": "kamesh kumar app title",
+ "name": "Article",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

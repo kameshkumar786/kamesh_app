@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kamesh_app *.css
+recursive-include kamesh_app *.csv
+recursive-include kamesh_app *.html
+recursive-include kamesh_app *.ico
+recursive-include kamesh_app *.js
+recursive-include kamesh_app *.json
+recursive-include kamesh_app *.md
+recursive-include kamesh_app *.png
+recursive-include kamesh_app *.py
+recursive-include kamesh_app *.svg
+recursive-include kamesh_app *.txt
+recursive-exclude kamesh_app *.pyc
